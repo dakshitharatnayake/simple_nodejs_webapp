@@ -1,7 +1,8 @@
 A simple NodeJS and ExpressJS front to back web application. 
 
 Requirements - 
-NodeJS and MongoDB
+Have NodeJS installed. 
+Install MongoDB and follow the instructions in dbScripts to create and populate the collections.  
 
 Run the below commands in the root folder (where package.json resides)
 npm init
