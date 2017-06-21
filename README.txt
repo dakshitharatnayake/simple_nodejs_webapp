@@ -1,4 +1,4 @@
-NodeJS and ExpressJS front to back web application. 
+A simple NodeJS and ExpressJS front to back web application. 
 
 Requirements - 
 NodeJS and MongoDB
