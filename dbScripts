@@ -1,0 +1,18 @@
+//setting up
+//create db and log folder first in the root folder of MongoDB
+//open cmd as administrator
+cd bin
+mongod --directoryperdb --dbpath C:\MongoDB\data\db --logpath C:\MongoDB\log\mongo.log --logappend --rest --install
+net start MongoDB
+//from bin directory run mongo.exe to start the mongo shell
+mongo
+show dbs
+use customerapp
+db.createCollection('users')
+show collections
+db.users.insert([
+{name:'John', age:21, email:'john@gmail.com'},
+{name:'Jane', age:35, email:'jane@gmail.com'},
+{name:'Phoebe', age:32, email:'phoebe@gmail.com'},
+])
+db.users.find()
